@@ -1,0 +1,42 @@
+.card.small {
+    height: 100px;
+  }
+  
+  .card.small .card-image {
+    max-height: 75%;
+  }
+  
+  .card .card-content {
+    padding: 3px;
+  }
+  
+  .card.small .card-image + .card-content {
+    max-height: 25%;
+  }
+  
+  .card .card-title {
+    font-size: 12px;
+  }
+  
+  .card img {
+    margin: auto;
+    max-width: 70px;
+    max-height: 70px;
+  }
+
+  .material-icons{
+    font-size: 10px;
+  }
+
+  .card .card-reveal {
+    padding: 4px;
+  }
+
+  .card .card-reveal p {
+    margin: 0;
+    font-size: 10px;
+  }
+
+  .card .card-reveal table > tbody > tr > td {
+    padding: 0;
+  }

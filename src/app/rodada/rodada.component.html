@@ -1,0 +1,5 @@
+<div *ngFor="let partida of partidas" class="row">
+    <img src="{{ partida.clube_casa_id | clubeImg:clubes }}"> 
+    {{ partida.placar_oficial_mandante }} X {{ partida.placar_oficial_visitante }}
+    <img src="{{ partida.clube_visitante_id | clubeImg:clubes }}">
+  </div>

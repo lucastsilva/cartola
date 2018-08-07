@@ -1,0 +1,15 @@
+<div class="row">
+    Pariciais
+</div>
+<div *ngFor="let atleta of atletas" class="col s12">
+    <div class="row">
+        <div class="col s4">
+            <img src="{{ atleta.foto | formatPlayerImg }}">
+        </div>
+        <div class="col s1">{{ atleta.apelido }}</div>
+        <div class="col s1">{{ atleta.pontos_num }}</div>
+    </div>
+    <div class="row atletaScout">
+        <span [outerHTML]="atleta.scout | atletaScout"></span>
+    </div>
+</div>
