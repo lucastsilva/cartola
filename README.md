@@ -1,31 +1,36 @@
-<<<<<<< HEAD
-# CartolaFc
+Projeto Sistemas
+Objetivo
+Criar 3 aplicações:
+1.	Gerenciador de débito/crédito
+Gerenciar o valor de todos os participantes (a princípio do grupo do bolão e do cartolaFC), assim como os pagamentos, parcelados ou não. Além disso, deve realizar e-mails de cobrança aos integrantes e ao gestor do gerenciador. 
+2.	Bolão
+Bolão de todos os campeonatos estudais, nacionais e internacionais, parametrizando tabelas e pontuações de acordo com desejo do contratante.
+3.	Dicas cartolaFC, estatísticas e premiações
+Baseia-se no bolão. O usuário primeiro insere os resultados que acredita que acontecerão e aplicação deve sugerir os melhores jogadores disponíveis. Por exemplo: O jogador espera que dois jogos resultarão em 2x0. Sendo assim, será informado pra ele os atacantes desses times, na ordem de melhores goleadores e finalizadores ou, se forem zagueiros, na ordem de melhores ladrões de bola, ou menos faltas. Dessa forma, deixa-se de pesquisar os jogadores por uma média, que pode ser falsa, ou contradições de escalar um atacante de um time que você acredita que não fará gols no jogo.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+Tecnologias propostas
+Linguagem de programação BackEnd: C# API
+Linguagem de programação FrontEnd: Angular 6
+Manutenção do código: GitHub
+Gerenciamento de atividades: Trello
+Comunicação: Skype
 
-## Development server
+Prazo
+Cada sistema pode ter um prazo diferente.
+Sistema	                                        Homologação	Testes	        Produção
+Gerenciador de débito/crédito	                Dez/2017	Jan/2018	Início do campeonato carioca/paulista 2019
+Bolão	                                        01/11/2017	11/11/2017	Início do campeonato carioca/paulista 2019
+Dicas cartolaFC, estatísticas e premiações	01/11/2017	11/11/2017	Início do campeonato brasileiro 2019
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+Expectativa de renda
+Pode ser pensada, de forma bem conservadora, em relação a quantidade de aquisições de cada sistema em relação a um preço médio.
+Cenário pessimista
+O sistema completo é contratado por R$ 50 ao ano por 10 pessoas: R$500 ao ano.
+Cenário realista
+O sistema completo é contratado por R$ 60 ao ano por 30 pessoas: R$1800 ao ano.
+Cenário otimista
+O sistema completo é contratado por R$ 70 ao ano por 50 pessoas: R$3500 ao ano.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-=======
-# cartola
->>>>>>> 218610ae5232d6a925011705f1bed8e6e20ace11
